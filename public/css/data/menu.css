@@ -1,0 +1,125 @@
+.menu {
+  position: sticky !important;
+  width: 100%;
+  height: auto !important;
+  background-color: #2b2b2b;
+  
+
+  nav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: start;
+    column-gap: 15px;
+    .green-button {
+      position: absolute !important;
+      left: 100px;
+      background-color: #1cb561;
+      font-size: 18px;
+      /* display: inline-block; */
+      text-align: center;
+      border-radius: 4px;
+      font-family: iransans;
+      border: none;
+      font-weight: 500;
+      padding: 10px 24px;
+      margin-top: 10px;
+      color: whitesmoke;
+      cursor: pointer;
+      /* right: 500px; */
+      &:hover {
+        background-color: #17924e;
+      }
+    }
+    .ordinary-button {
+      background-color: rgba(255, 255, 255, 0.2);
+      left: 10px !important;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+    .orange {
+      color: #f5b83f !important;
+      font-size: 24px !important;
+      font-family: iransans;
+      background: rgba(245, 184, 63, 0.25);
+      margin: 5px !important;
+      padding: 2px 2px;
+      border-radius: 50px;
+      line-height: auto;
+      font-weight: 500;
+      /* vertical-align: middle; */
+
+      &:hover {
+        background-color: rgba(245, 184, 63, 0.5);
+      }
+      span {
+        color: #2b2b2b !important;
+        font-size: 14px !important;
+        font-family: iransans;
+        background: white;
+        border-radius: 50px;
+        padding: 4px 2px;
+        line-height: 40px;
+      }
+    }
+
+    div {
+      width: fit-content;
+      height: inherit;
+      /* background-color: aqua; */
+      span.Filimotour {
+        display: inline-block;
+        height: auto;
+        width: fit-content;
+        /* padding: 2px 5px; */
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+        text-decoration: none;
+        font-family: iransans;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: whitesmoke;
+        transition: 300ms ease-in-out;
+        &:hover {
+          color: orange;
+        }
+      }
+      a {
+        display: inline-block;
+        width: fit-content;
+        height: auto;
+        margin: 5px 10px;
+        text-align: center;
+        line-height: 40px;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: iransans;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: whitesmoke;
+        transition: 300ms ease-in-out;
+
+        svg {
+          /* width: fit-content; */
+          height: 30px;
+          margin-left: 10px;
+          /* margin-top: 5px; */
+
+          vertical-align: middle;
+          /* /* text-align: center; */
+          /* line-height: 30px; */
+          text-decoration: none;
+          color: whitesmoke;
+          transition: 300ms ease-in-out;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+}
