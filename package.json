@@ -1,5 +1,5 @@
 {
-  "name": "latest-project",
+  "name": "filimo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,15 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server --watch db.json "
+    "server": "json-server --watch db.json"
   },
   "devDependencies": {
     "vite": "^5.2.0"
   },
-  "Dependencies": {
-    "json server": "^1.0.0 beta.0"
-  },
   "dependencies": {
-    "server": "^1.0.39"
+    "json-server": "^1.0.0-beta.1"
   }
 }
