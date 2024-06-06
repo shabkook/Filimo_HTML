@@ -4,7 +4,7 @@
     { "id": 2, "name": "اپلیکیشین ها", "link": "https://www.google.com" },
     { "id": 3, "name": "تماس و پشتیبانی", "link": "https://www.google.com" },
     { "id": 4, "name": "فروشگاه", "link": "https://www.google.com " },
-    { "id": 4, "name": "سایرلینک ها", "link": "https://www.google.com " },
-    { "id": 4, "name": "شبکه های اجتماعی", "link": "https://www.google.com " }
+    { "id": 5, "name": "سایرلینک ها", "link": "https://www.google.com " },
+    { "id": 6, "name": "شبکه های اجتماعی", "link": "https://www.google.com " }
   ]
 }
