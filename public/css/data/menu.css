@@ -3,7 +3,6 @@
   width: 100%;
   height: auto !important;
   background-color: #2b2b2b;
-  
 
   nav {
     width: inherit;
@@ -16,7 +15,7 @@
       position: absolute !important;
       left: 100px;
       background-color: #1cb561;
-      font-size: 18px;
+      font-size: 14px;
       /* display: inline-block; */
       text-align: center;
       border-radius: 4px;
@@ -24,7 +23,7 @@
       border: none;
       font-weight: 500;
       padding: 10px 24px;
-      margin-top: 10px;
+      margin: 5px;
       color: whitesmoke;
       cursor: pointer;
       /* right: 500px; */
@@ -41,7 +40,7 @@
     }
     .orange {
       color: #f5b83f !important;
-      font-size: 24px !important;
+      font-size: 14px !important;
       font-family: iransans;
       background: rgba(245, 184, 63, 0.25);
       margin: 5px !important;
@@ -56,7 +55,7 @@
       }
       span {
         color: #2b2b2b !important;
-        font-size: 14px !important;
+        font-size: 10px !important;
         font-family: iransans;
         background: white;
         border-radius: 50px;
@@ -79,7 +78,7 @@
         line-height: 40px;
         text-decoration: none;
         font-family: iransans;
-        font-size: 24px;
+        font-size: 14px;
         text-transform: capitalize;
         color: whitesmoke;
         transition: 300ms ease-in-out;
@@ -97,7 +96,7 @@
         vertical-align: middle;
         text-decoration: none;
         font-family: iransans;
-        font-size: 20px;
+        font-size: 14px;
         text-transform: capitalize;
         color: whitesmoke;
         transition: 300ms ease-in-out;

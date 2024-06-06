@@ -5,7 +5,7 @@ const buttom_menu = async () => {
     let buttom_menu=res.map((elem)=>{
         return  `<div><a href=${elem.link}  >${elem.name}</a></div>`
     })
-    document.querySelector(".buttom_menu nav").insertAdjacentHTML("beforeend", buttom_menu) //
+    document.querySelector(".buttom_menu nav").insertAdjacentHTML("beforeend", buttom_menu) 
   } catch (error) {
     console.log(error.message);
   }

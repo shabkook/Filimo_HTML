@@ -2,7 +2,7 @@
   position:relative;
   width: 100%;
   height: auto !important;
-  bottom:-90vh;
+  bottom: -88vh;
   background-color: #2b2b2b;
   nav {
     position: sticky !important;
@@ -11,7 +11,7 @@
     display: flex;
     flex-grow: row wrap;
     justify-content: start;
-    column-gap: 15px;
+    column-gap: 5px;
   }
 
   div {
@@ -29,7 +29,7 @@
       vertical-align: middle;
       text-decoration: none;
       font-family: iransans;
-      font-size: 20px;
+      font-size: 10px;
       text-transform: capitalize;
       color: gray;
       transition: 300ms ease-in-out;
