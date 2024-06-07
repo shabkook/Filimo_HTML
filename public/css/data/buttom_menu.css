@@ -2,7 +2,7 @@
   position:relative;
   width: 100%;
   height: auto !important;
-  bottom: -88vh;
+  bottom: calc(-100vh + 96px); 
   background-color: #2b2b2b;
   nav {
     position: sticky !important;
