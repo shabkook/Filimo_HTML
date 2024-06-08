@@ -3,8 +3,7 @@ const slider = async () => {
     let data = await fetch("http://localhost:3000/slider");
     let res = await data.json();
     let slider = res.map((elem) => {
-      console.log('elem.image');
-      return `<div class="swiper-slide"><img src=${elem.image} alt=${elem.alt} /> </div>`
+      return `<div class="swiper-slide"><img src=${elem.image} alt=${elem.alt} /> </div>`;
     });
     document
       .querySelector(".swiper-wrapper")
