@@ -2,6 +2,7 @@
 // import { Autoplay } from "swiper/modules";
 import buttom_menu from "../js/menu/buttom_menu.js";
 import slider from "../js/slider/slider.js";
+import favorite from "../js/favorite/favorite.js";
 // import Swiper from "swiper";
 // menu ()
 
@@ -27,6 +28,7 @@ function initslider() {
 async function allData() {
   await buttom_menu();
   await slider();
+  await favorite();
   initslider();
 }
 
