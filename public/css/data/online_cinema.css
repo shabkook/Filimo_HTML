@@ -1,0 +1,186 @@
+.online_cinema_wrapper {
+  width: 100%;
+  background-image: url("https://www.filimo.com/assets/web/ui/img-HeVH1q7jmKOT7xVFWBdA/campaigns/nosub-v_new/bg-cinama.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  display: flex;
+  flex-flow: column nowrap;
+  /* flex: 1fr 1fr; */
+  /* align-items: flex-start; */
+  /* align-content: space-evenly; */
+  /* align-items: center; */
+  align-self: center;
+  /* justify-content: space-between; */
+  row-gap: 25px;
+  /* border-radius: 50px; */
+  /* padding: 30px; */
+  /* background-color: #151515; */
+}
+
+.online_cinema_up h1 {
+  text-align: center;
+  color: white;
+  font-family: iransans;
+  font-size: 17px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.online_cinema_up .online-summary {
+  display: grid;
+  width: 100%;
+  grid-column: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column nowrap;
+  /* flex: 1fr 1fr 1fr; */
+  /* align-items: center; */
+  align-content: space-between;
+  /* align-self: center; */
+  row-gap: 40px;
+  margin-bottom: 20px;
+  div {
+    h1 {
+      color: rgba(255, 255, 255, 0.75);
+      font-family: iransans;
+      font-size: 13px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      span {
+        display: inline;
+        padding-left: 5px;
+        svg {
+          width: 20px;
+          height: auto;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.online_cinema_down {
+  width: 100%;
+  /* background-color: red; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1fr 1fr;
+  padding-right: 35px;
+  /* align-items: flex-start; */
+  /* align-content: space-evenly; */
+  align-items: center;
+  align-self: center;
+  justify-content: flex-start;
+  /* row-gap: 50px; */
+  /* border-radius: 50px; */
+  /* padding: 30px; */
+  /* background-color: #151515;     */
+
+  .online-screening .one {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-flow: column nowrap;
+    /* align-items: start; */
+    justify-content: space-around;
+    column-gap: 10px;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid #33353d;
+    /* align-self: center; */
+    /* row-gap: 100px; */
+  }
+}
+
+.online_cinema_wrapper .online_cinema_down .online-screening {
+ display: flex;
+ flex-flow: row wrap;
+ flex: 1fr 1fr;
+ justify-content: space-around;
+ row-gap: 20px;
+}
+.online_cinema_wrapper .online_cinema_down .online-screening .one {
+    padding: 10px;
+    width: 42%;
+    margin-bottom: 40px;
+  .online-screening-right img {
+    display: block;
+  }
+
+  .online-screening-center {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-auto-flow: column nowrap;
+    /* row-gap: 5px; */
+    justify-content: space-around;
+    align-items: center;
+    h1 {
+      font-family: iransans;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 24px;
+      color: #fff;
+    }
+    h2 {
+      font-family: iransans;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 12px;
+      /* line-height: 16px; */
+      color: #d8d8d8;
+    }
+    div {
+      display: flex;
+      flex-flow: row nowrap;
+      flex: 1fr 1fr;
+      justify-content: space-around;
+      align-items: center;
+      span {
+        color: #fff;
+        font-family: iransans;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        /* width: max-content; */
+        /* padding: 3px 10px;   */
+      }
+    }
+    a {
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 7px;
+      border-radius: 10%;
+      width: max-content;
+      cursor: pointer;
+      color: #fff;
+      background-color: transparent;
+    }
+  }
+
+  .online-screening-left{
+    display: flex;
+      flex-flow: row nowrap;
+      /* flex: 1fr 1fr; */
+      justify-content: space-around;
+      align-items: start;
+      padding: 5px;
+      img {
+        width: max-content;
+        text-align: center;
+        vertical-align: middle;
+      }
+      span {
+        color: #fff;
+        font-family: iransans;
+        font-size: 10px;
+        /* line-height: 16px; */
+        text-align: center;
+        /* width: max-content; */
+        padding: 3px 10px;  
+      }
+
+  }
+}

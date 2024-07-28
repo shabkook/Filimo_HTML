@@ -11,8 +11,8 @@
   "slider": [
     {
       "id": 1,
-      "image": "https://static.cdn.asset.filimo.com/flmt/mov_147472_169768.jpg?width=165&quality=85&secret=Z8vNaT7rkNdpkT6Lv00lPg",
-      "alt": "صداتو"
+      "image": "https://static.cdn.asset.filimo.com/ct/10lhg_desktop_1_v1.jpeg?width=1920&quality=85&secret=srJ--iijPNRChfTNPvzVsg",
+      "alt": "جوکر2"
     },
     {
       "id": 2,
@@ -46,49 +46,57 @@
     },
     {
       "id": 8,
-      "image": "https://static.cdn.asset.filimo.com/ct/10lhg_desktop_1_v1.jpeg?width=1920&quality=85&secret=srJ--iijPNRChfTNPvzVsg",
-      "alt": "جوکر2"
+      "image": "https://static.cdn.asset.filimo.com/ct/nsq59_desktop_1_v1.jpeg?width=1920&quality=85&secret=ngr1lrsouaTPtW2GfAhRXA",
+      "alt": "ماسک"
     }
+    
   ],
 
   "favorite": [
     {
       "id": 1,
+      "call_favorite_movie": "#favorite-joker",
+      "a_id": "joker",
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_147715_175176.jpg?width=165&quality=85&secret=h7VI0p5V1NAA13NvOjYY9Q",
-      "alt": "صداتو",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg ",
+      "alt": "جوکر",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg ",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
     },
     {
       "id": 2,
+      "call_favorite_movie": "#favorite-sedato",
+      "a_id": "sedato",
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_147472_169768.jpg?width=165&quality=85&secret=Z8vNaT7rkNdpkT6Lv00lPg",
       "alt": "جوکر2",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg ",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
     },
     {
       "id": 3,
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_145337_169837.jpg?width=165&quality=85&secret=ohpRvYn0XHMUX-McbnISRg",
       "alt": "پسردلفینی",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
-    },{
+    },
+    {
       "id": 4,
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_147575_169831.jpg?width=165&quality=85&secret=Un829MZKonWmmJd4beSdGg",
       "alt": "جوکر2",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
-    },{
+    },
+    {
       "id": 5,
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_147593_169692.jpg?width=165&quality=85&secret=7t4bCNnugdzicnVvSZkX-Q",
       "alt": "جوکر2",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
-    },{
+    },
+    {
       "id": 6,
       "image": "https://static.cdn.asset.filimo.com/flmt/mov_145684_170656.jpg?width=165&quality=85&secret=R3SJUkW0ITS_R1p5SUA5bw",
       "alt": "زخم کاری",
-      "image2": "https://www.filimo.com/assets/web/ui/img-F21FhNyIeEBwGsB2QgJK6Q/campaigns/welcome-new/exclusive-fa.svg ",
+      "image2": "https://www.filimo.com/assets/web/ui/img-xR8gQOGB0ViS2CQJ3WecfQ/campaigns/welcome-new/exclusive-fa.svg",
       "alt2": "اختصاصی;&zwnj;فیلیمو"
     }
   ]

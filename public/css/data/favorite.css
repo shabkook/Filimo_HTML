@@ -1,14 +1,16 @@
 .favorite-wrapper {
+  position: relative;
   width: 90%;
+
   margin: 0 auto;
   /* background-color: lightskyblue; */
   padding-top: 30px;
-  
+
   h1 {
     color: white;
     font-family: iransans;
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
@@ -17,26 +19,32 @@
 
   .favorite-movie {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-content: space-evenly;
     align-items: center;
     align-self: center;
     justify-content: space-between;
     column-gap: 15px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     padding-bottom: 30px;
+    /* background-color: red; */
 
-    div {
+    div a {
       img {
         border-radius: 6px;
         opacity: 0.65;
         transition: 300ms linear;
         box-shadow: 5px 5px 5px silver;
+        animation: 300ms linear;
+
         &:hover {
           cursor: pointer;
           opacity: 1;
           box-shadow: 5px 5px 5px white;
-          
+        }
+        &:active {
+          border: 2px solid red;
+          box-shadow: none;
         }
       }
       span {
@@ -45,16 +53,349 @@
 
         img {
           position: absolute;
-          /* left: 50%;  */
-          /* z-index: 1; */
           transform: translateX(150%);
           bottom: 50%;
           opacity: 0.65;
+          /* background-image: linear-gradient(to right, red, blue, black); */
           &:hover {
-         opacity: 1;
-         
+            opacity: 1;
+          }
         }
       }
     }
+
+    /* #sedato {
+      
+      &:hover h1 {
+        color: orange;
+      }
+
+      &:focus h1 {
+        color: blueviolet;
+        text-decoration: none;
+      }
+      img {
+        border: 2px solid red;
+      }
+    } */
+
+    /* a img {
+      border-radius: 6px;
+      opacity: 0.65;
+      transition: 300ms linear;
+      box-shadow: 5px 5px 5px silver;
+      animation: 300ms linear;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+        box-shadow: 5px 5px 5px white;
+      }
+      &:active {
+        border: 2px solid red;
+        box-shadow: none;
+      }
+    } */
+    /* span {
+      background-color: white;
+      position: relative;
+
+      img {
+        position: absolute;
+        left: 50%; 
+        z-index: 1;
+
+        transform: translateX(150%);
+        bottom: 50%;
+        opacity: 0.65;
+        background-image: linear-gradient(to right, red, blue, black);
+        &:hover {
+          opacity: 1;
+        }
+      }
+    } */
   }
-}}
+
+  .favorit-bottom-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    #favorite-joker {
+      background-image: url("https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_147925_543.jpg?width=1920&quality=80&secret=BSSFYc6ruREOKt_LOrCmMw");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: soft-light !important;
+      backdrop-filter: blur(30px) !important;
+      backdrop-filter: brightness(60%) !important;
+      /* background-image: linear-gradient(red, yellow, blue); */
+      background-size: cover;
+      opacity: 0.9;
+
+      /* border-radius: 25px; */
+      .favorite-content {
+        /* background-color: chartreuse !important; */
+        display: flex !important;
+        flex-flow: row nowrap;
+      }
+      .favorite-bottom-right {
+        /* background-color:aqua ; */
+        width: 50%;
+        padding: 10px;
+        h1 {
+          color: whitesmoke;
+          font-size: 16px;
+          padding-bottom: 10px;
+        }
+        h2 {
+          color: #a1a1a1;
+          font-size: 12px;
+          padding-bottom: 20px;
+        }
+        span {
+          text-align: center;
+          min-width: 50px;
+          /* padding-top: 20px; */
+          padding: 0px 15px;
+          color: whitesmoke;
+          background-color: #282828;
+          border-radius: 10px;
+          font-size: 10px;
+        }
+        p {
+          margin-top: 20px;
+          color: whitesmoke;
+          font-size: 12px;
+          /* line-height: 26px; */
+          max-width: 50%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          /* max-height: 100px; */
+          /* overflow-y: auto; */
+        }
+      }
+      .favorite-bottom-left {
+        width: 50%;
+
+        /* background-color: blueviolet; */
+        img {
+          max-width: 200px;
+          max-height: 200px;
+          margin-right: 65%;
+          /* opacity: 1 !important; */
+          /* margin-top: 10px; */
+        }
+      }
+    }
+    #favorite-sedato {
+      background-image: url("https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_147928_185.jpg?width=1920&quality=80&secret=2lPoOmgabp1m3qZFWSZzJw");
+      .favorite-bottom-right {
+        h1 {
+          color: whitesmoke;
+          font-size: 16px;
+          padding-bottom: 10px;
+        }
+        h2 {
+          color: #a1a1a1;
+          font-size: 12px;
+          padding-bottom: 20px;
+        }
+        span {
+          text-align: center;
+          min-width: 50px;
+          /* padding-top: 20px; */
+          padding: 0px 15px;
+          color: whitesmoke;
+          background-color: #282828;
+          border-radius: 10px;
+          font-size: 10px;
+        }
+        p {
+          margin-top: 20px;
+          color: whitesmoke;
+          font-size: 12px;
+          /* line-height: 26px; */
+          max-width: 708px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          /* max-height: 100px; */
+          /* overflow-y: auto; */
+        }
+      }
+
+      .favorire-content .favorite-bottom-left img {
+        max-width: 200px;
+        max-height: 200px;
+        margin-right: 10px;
+        /* opacity: 1 !important; */
+        /* margin-top: 10px; */
+      }
+    }
+    width: 100%;
+    /* height: auto !important; */
+    background-color: #2b2b2b;
+    object-fit: cover;
+    direction: rtl;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    background-blend-mode: overlay;
+
+    .favorite-buttom {
+      display: flex;
+      flex-flow: column nowrap;
+      align-content: space-evenly;
+      align-items: right;
+      align-self: center;
+      justify-content: space-between;
+      row-gap: 15px;
+      padding-bottom: 10px;
+      width: 100%;
+      font-family: iransans;
+      /* background-image: linear-gradient(to right,red,blue,black); */
+    }
+  }
+}
+
+/* .wrapper {
+   
+  .favorite-slider {
+    width: 100PX;
+    height: auto;
+    
+    height: calc(100vh - 40px);
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper .swiper-wrapper_2 {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    } 
+    
+    
+     
+      
+    
+
+    .swiper-slide img {
+      display: linline-block;
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
+    }
+  
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+
+      .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+      
+       button {
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+      }
+      
+    }
+  }
+
+} */
+
+.favorite-wrapper {
+  .swiper.mySwiper_2 {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    height: calc(100vh - 550px);
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* background-image: linear-gradient(to right,red,blue,black); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .swiper-slide .overlay-lock {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: color-burn;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    img {
+      width: 25%;
+      height: 35%;
+      position: absolute;
+      padding: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background-color: #2b2b2b;
+    }
+  }
+
+  .swiper-slide .overlay-nolock {
+    width: 100%;
+    height: 100%;
+    /* display: inline-block;
+    position: absolute;
+   
+    background-blend-mode: color-burn;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    img {
+      width: 0;
+      height: 0;
+      position: absolute;
+      padding: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background-color: #2b2b2b;
+    } */
+  }
+}

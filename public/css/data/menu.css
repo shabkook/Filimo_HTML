@@ -47,12 +47,11 @@
       font-size: 14px !important;
       font-family: iransans;
       background: rgba(245, 184, 63, 0.25);
-      margin: 5px !important;
-      padding: 2px 2px;
+      /* margin: 5px !important; */
+      padding: 0px 15px;
       border-radius: 50px;
       line-height: auto;
-      font-weight: 500;
-      /* vertical-align: middle; */
+      font-weight: 500;   
 
       &:hover {
         background-color: rgba(245, 184, 63, 0.5);

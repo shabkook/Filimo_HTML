@@ -1,0 +1,43 @@
+.free-content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  /* background-color: aqua; */
+  h1 {
+    font-family: iransans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    /* height: 200px; */
+  }
+
+  .swiper-slide {
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    h5 {
+      font-family: iransans;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      padding-top: 5px;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+  }
+}

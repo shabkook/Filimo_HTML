@@ -6,24 +6,23 @@
 
   .wrapper {
     width: 100%;
-    background-color: #2b2b2b;
-    
+    background-color: #151515;
+    /* background-color:radial-gradient(130% 44% at 41% 40%, rgba(0, 0, 0, 0) 0, #151515 100%); */
+    /* color: #fff; */
+    /* position: relative; */
   }
   
   
   @font-face {
     font-family: iransans;
+    src: url("../../../fonts/IRANSans-Medium-web.eot");
+    src: url("../../../fonts/IRANSans-Medium-web.ttf");
+    src: url("../../../fonts/IRANSans-Medium-web.woff");
     src: url("../../../fonts/IRANSans-Medium-web.woff2");
-    src: url("../../../fonts/IRANSans-web.woff2");
+    /* src: url("../../../fonts/IRANSans-web.woff2"); */
   }
   
-  /* @font-face {
-    font-family: bangers;
-    src: url("../../fonts/Bangers-Regular.eot");
-    src: url("../../fonts/Bangers-Regular.ttf");
-    src: url("../../fonts/Bangers-Regular.woff");
-    src: url("../../fonts/Bangers-Regular.woff2");
-  } */
+  
   .wrapper {
     width: 100%;
   }
